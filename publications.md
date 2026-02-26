@@ -25,14 +25,52 @@ title: Publications & Conferences
 </div>
 
 <script>
-  function slideMove(dir){
-    const track = document.getElementById('sliderTrack');
-    const slide = track.querySelector('.slide');
-    if(!slide) return;
-    const gap = 16;
-    const step = slide.getBoundingClientRect().width + gap;
-    track.scrollBy({ left: dir * step, behavior: 'smooth' });
+document.addEventListener("DOMContentLoaded", function(){
+
+  const track = document.getElementById("sliderTrack");
+  const slides = track.children;
+  let index = 0;
+  let slideInterval;
+
+  function moveToSlide(i){
+    const slideWidth = slides[0].getBoundingClientRect().width + 16; // 16 = gap
+    track.scrollTo({
+      left: i * slideWidth,
+      behavior: "smooth"
+    });
   }
+
+  function nextSlide(){
+    index++;
+    if(index >= slides.length){
+      index = 0;
+    }
+    moveToSlide(index);
+  }
+
+  function startAutoSlide(){
+    slideInterval = setInterval(nextSlide, 5000); // 5 seconds
+  }
+
+  function stopAutoSlide(){
+    clearInterval(slideInterval);
+  }
+
+  // Arrow buttons still work
+  window.slideMove = function(dir){
+    index += dir;
+    if(index < 0) index = slides.length - 1;
+    if(index >= slides.length) index = 0;
+    moveToSlide(index);
+  }
+
+  // Pause on hover
+  track.addEventListener("mouseenter", stopAutoSlide);
+  track.addEventListener("mouseleave", startAutoSlide);
+
+  startAutoSlide();
+
+});
 </script>
 
 ---
