@@ -12,10 +12,9 @@ layout: default
       <p class="sub">{{ p.role }}</p>
 
       <p style="max-width:520px;">
-        I develop advanced quantitative ultrasound techniques to characterize 
-        tissue microstructure and enable early detection of pathological changes. 
-        My work integrates signal processing, envelope statistics, and 
-        tissue-mimicking phantoms for validation.
+        I’m a 4th-year Ph.D. student at IIT Gandhinagar in the Medical Ultrasound Engineering Lab (MUSE). My work focuses on biomedical ultrasound imaging and quantitative ultrasound for soft-tissue characterization.
+
+        I develop and evaluate methods based on envelope statistics (e.g., Nakagami and Burr) and H-scan imaging to quantify microstructural changes in tissue using tissue-mimicking phantoms and ex-vivo studies. I completed my B.E. in Biomedical Engineering from L.D. College of Engineering, Ahmedabad (2021).
       </p>
 
       <div class="btnrow" style="margin-top:20px;">
