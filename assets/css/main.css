@@ -140,3 +140,13 @@ h3{
   gap:12px;
   flex-wrap:wrap;
 }
+
+.page-content p,
+.hero p {
+    text-align: justify;
+    hyphens: auto;
+}
+
+.hero p {
+    max-width: 600px;
+}
