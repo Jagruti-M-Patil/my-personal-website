@@ -121,3 +121,22 @@ a:hover{text-decoration:underline}
   padding:30px 0;
   color:var(--muted);
 }
+
+h2{
+  margin-top:60px;
+  font-size:28px;
+}
+
+h3{
+  margin-top:0;
+}
+
+.hero{
+  padding:80px 0 40px 0;
+}
+
+.btnrow{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
