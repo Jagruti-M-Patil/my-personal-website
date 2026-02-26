@@ -1,0 +1,7 @@
+title: "Jagruti M. Patil"
+description: "Biomedical Ultrasound | Quantitative Ultrasound | Tissue Characterization"
+url: "https://jagruti-m-patil.github.io"
+baseurl: "/my-personal-website"
+
+markdown: kramdown
+permalink: pretty

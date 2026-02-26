@@ -1,0 +1,12 @@
+name: "Jagruti M. Patil"
+role: "PhD Student • Biological Engineering • IIT Gandhinagar"
+tagline: "Biomedical ultrasound | Quantitative ultrasound (H-scan, envelope stats) | Tissue-mimicking phantoms"
+email: "your-email@example.com"
+
+links:
+  - label: "Google Scholar"
+    url: "https://scholar.google.com/"
+  - label: "GitHub"
+    url: "https://github.com/Jagruti-M-Patil"
+  - label: "LinkedIn"
+    url: "https://www.linkedin.com/"
