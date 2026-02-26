@@ -1,0 +1,70 @@
+- year: 2025
+  items:
+    - authors: "Patil, J.M.; Dharviya, A.; Raval, V.; Mercado-Shekhar, K.P."
+      title: "Differentiating benign and malignant ocular choroidal tumors using Nakagami and Burr envelope statistics"
+      venue: "IEEE International Ultrasonics Symposium (IUS)"
+      location: "Utrecht, Netherlands"
+      date: "15–18 Sept 2025"
+      type: "Lecture • Student Pitch (Selected)"
+
+    - authors: "Patil, J.M.; Mercado-Shekhar, K.P."
+      title: "Multiparametric High-Frequency Ultrasound for Assessing Oral Cancer Lesions"
+      venue: "PMRF Annual Symposium, IIT Hyderabad"
+      location: "Hyderabad, India"
+      date: "16–17 March 2025"
+      type: "Poster • Best Poster Award"
+
+- year: 2024
+  items:
+    - authors: "Patil, J.M.; Rao, S.; Vazhayi, V.; Pandya, H.J.; Mahadevan, A.; Mercado-Shekhar, K.P."
+      title: "Differentiating glioblastoma and normal tissue using Nakagami and Burr distribution analyses of the echo envelope: An ex-vivo study"
+      venue: "IEEE UFFC-JS"
+      location: "Taipei, Taiwan"
+      date: "22–26 Sept 2024"
+      type: "Poster"
+
+    - authors: "Patil, J.M.; Nair, H.; Joshi, P.; Murudkar, S.; Shekhar, H.; Mercado-Shekhar, K.P."
+      title: "Characterizing male baldness and female pattern hair loss via scalp and hair testing, and ultrasound envelope statistics: A pilot study"
+      venue: "IEEE SAUS"
+      location: "Gandhinagar, India"
+      date: "27–29 March 2024"
+      type: "Poster • 3rd Place Best Poster Award"
+
+    - authors: "Oza, S.H.; Patil, J.M.; Raval, V.; Mercado-Shekhar, K.P."
+      title: "Differentiation of intraocular tumors using Nakagami envelope statistics"
+      venue: "IEEE SAUS"
+      location: "Gandhinagar, India"
+      date: "27–29 March 2024"
+      type: "Best Poster Award Finalist"
+
+    - authors: "Singh, A.K.; Patil, J.M.; Shekhar, H."
+      title: "The pth standard deviation factor-weighted delay-and-sum beamforming for needle visualization in B-mode ultrasound images"
+      venue: "IEEE SAUS"
+      location: "Gandhinagar, India"
+      date: "27–29 March 2024"
+      type: "Best Poster Award Finalist"
+
+- year: 2023
+  items:
+    - authors: "Patil, J.M.; Trivedi, V.; Yadav, A.; Pandya, H.J.; Vazhayi, V.; Rao, S.; Mahadevan, A.; Mercado-Shekhar, K.P."
+      title: "Differentiating normal brain tissue and glioblastoma using the integrated backscatter coefficient: An ex vivo study"
+      venue: "IEEE IUS"
+      location: "Montreal, Canada"
+      date: "3–8 Sept 2023"
+      type: "Poster"
+
+    - authors: "Kakkar, M.; Patil, J.M.; Trivedi, V.; Yadav, A.; Rao, S.; Vazhayi, V.; Mahadevan, A.; Shekhar, H.; Mercado-Shekhar, K.P."
+      title: "Evaluating the feasibility of differentiating glioblastoma and normal brain tissue using H-scan imaging: An ex vivo study"
+      venue: "ASA Meeting (184th)"
+      location: "Chicago, Illinois, USA"
+      date: "8–12 May 2023"
+      type: "Lecture"
+
+- year: 2022
+  items:
+    - authors: "Patil, J.M.; Vazhayi, V.; Rao, S.; Mahadevan, A.; Mercado-Shekhar, K.P."
+      title: "Differentiating normal brain tissue and glioblastoma using the integrated backscatter coefficient in ultrasound imaging"
+      venue: "Symposium cum Hands-on Workshop on Medical Imaging, IISER Thiruvananthapuram"
+      location: "Thiruvananthapuram, India"
+      date: "20–22 Oct 2022"
+      type: "Poster"

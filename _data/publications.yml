@@ -1,15 +1,28 @@
-- title: "Differentiating glioblastoma and normal tissue using Nakagami and Burr distribution analyses of the echo envelope: An ex-vivo study"
-  venue: "Conference presentation"
-  year: 2025
-  authors: "J. M. Patil, et al."
-  links:
-    - label: "Slides"
-      url: "#"
+peer_reviewed:
+  - authors: "Bisht, Sapna; Chandra, Akash; Marri, Bhanu; Patil, J.M.; Mercado-Shekhar, Karla P."
+    year: 2025
+    title: "Ultrasound shear wave attenuation estimates are sensitive to in-situ fluid content: In-vitro and ex-vivo studies"
+    venue: "Ultrasonic Imaging"
+    link_label: "Link"
+    url: "#"
 
-- title: "Integrated Backscatter Coefficient for differentiating normal brain tissue and glioblastoma samples"
-  venue: "Talk / Seminar"
-  year: 2025
-  authors: "J. M. Patil, et al."
-  links:
-    - label: "Link"
-      url: "#"
+  - authors: "Raval, V.; Karmakar, J.; Kannan, K.; Oza, S.; Patil, J.M.; Mercado-Shekhar, K.P."
+    year: 2024
+    title: "Ultrasound biomarkers: Contrast-enhanced ultrasound and Nakagami imaging to differentiate benign and malignant choroidal tumors"
+    venue: "Current Eye Research"
+    link_label: "Link"
+    url: "#"
+
+  - authors: "Kakkar, M.; Patil, J.M.; Trivedi, V.; Yadav, A.; Saha, R.K.; Rao, S.; Vazhayi, V.; Pandya, H.J.; Mahadevan, A.; Shekhar, H.; Mercado-Shekhar, K.P."
+    year: 2023
+    title: "Hermite-scan imaging for differentiating glioblastoma from normal brain: simulations and ex vivo studies for applications in intra-operative tumor identification"
+    venue: "The Journal of the Acoustical Society of America"
+    link_label: "Link"
+    url: "#"
+
+in_preparation:
+  - authors: "Patil, J.M.; Vazhayi, V.; Rao, S.; Pandya, A.; Mahadevan, A.; Mercado-Shekhar, K.P."
+    title: "Envelope statistics for differentiating glioblastoma from normal brain tissue: An ex-vivo feasibility study for potential applications in surgical guidance"
+
+  - authors: "Patil, J.M.; Nair, H.; Joshi, P.; Murudkar, S.; Shekhar, H.; Mercado-Shekhar, K.P."
+    title: "Characterizing male baldness and female pattern hair loss via scalp and hair testing, and ultrasound envelope statistics: A pilot study"
