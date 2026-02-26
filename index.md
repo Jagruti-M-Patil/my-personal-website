@@ -25,7 +25,7 @@ layout: default
     </div>
 
     <div>
-      <img src="{{ '/assets/img/profile.jpeg' | relative_url }}" 
+      <img src="{{ '/assets/img/profile.jpg' | relative_url }}" 
            style="width:100%; border-radius:16px; border:1px solid #e5e7eb;">
     </div>
 
