@@ -2,6 +2,59 @@
 layout: page
 title: Extracurriculars
 ---
+{% assign hl = site.data.extracurriculars_highlights %}
+
+<div class="slider xl">
+  <button class="slider-btn prev" aria-label="Previous" onclick="extraSlideMove(-1)">‹</button>
+
+  <div class="slider-track" id="extraSliderTrack">
+    {% for h in hl %}
+      <div class="slide">
+        <img src="{{ h.image | relative_url }}" alt="{{ h.caption }}">
+        <div class="caption">{{ h.caption }}</div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <button class="slider-btn next" aria-label="Next" onclick="extraSlideMove(1)">›</button>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  const track = document.getElementById("extraSliderTrack");
+  const slides = track ? track.children : [];
+  let index = 0;
+  let timer;
+
+  function moveTo(i){
+    if(!slides.length) return;
+    const step = slides[0].getBoundingClientRect().width + 16;
+    track.scrollTo({ left: i * step, behavior: "smooth" });
+  }
+
+  function next(){
+    if(!slides.length) return;
+    index = (index + 1) % slides.length;
+    moveTo(index);
+  }
+
+  function start(){ timer = setInterval(next, 4500); }
+  function stop(){ clearInterval(timer); }
+
+  window.extraSlideMove = function(dir){
+    if(!slides.length) return;
+    index = index + dir;
+    if(index < 0) index = slides.length - 1;
+    if(index >= slides.length) index = 0;
+    moveTo(index);
+  }
+
+  track.addEventListener("mouseenter", stop);
+  track.addEventListener("mouseleave", start);
+
+  start();
+});
+</script>
 
 <section class="grid grid-2" style="margin-top:18px;">
 

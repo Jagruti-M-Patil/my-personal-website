@@ -273,3 +273,17 @@ h2{
 .page-title{
   display: none;
 }
+
+/* Larger slider variant */
+.slider.xl .slide{
+  min-width: 440px;
+  max-width: 440px;
+}
+
+.slider.xl .slide img{
+  height: 260px;
+}
+
+@media (max-width: 720px){
+  .slider.xl .slide{ min-width: 88vw; max-width: 88vw; }
+}
