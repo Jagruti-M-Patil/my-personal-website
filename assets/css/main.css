@@ -216,3 +216,23 @@ h3{
   .slider-btn.prev{ left: 2px; }
   .slider-btn.next{ right: 2px; }
 }
+
+/* Custom List Styling */
+.custom-list{
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-list li{
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.custom-list li:last-child{
+  border-bottom: none;
+}
+
+/* Section spacing */
+h2{
+  margin-top: 60px;
+}
