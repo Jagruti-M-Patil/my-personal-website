@@ -269,3 +269,7 @@ h2{
 .clean-list li:last-child{
   border-bottom:none;
 }
+
+.page-title{
+  display: none;
+}
